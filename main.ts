@@ -9,4 +9,8 @@ microIoT.SERVERS.Global
 basic.forever(function () {
     microIoT.showUserText(0, "Light" + input.lightLevel())
     microIoT.microIoT_SendMessage(convertToText(input.lightLevel()), microIoT.TOPIC.topic_0)
+    basic.pause(5000)
+    basic.pause(5000)
+    basic.pause(5000)
+    basic.pause(5000)
 })
